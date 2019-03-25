@@ -14,6 +14,7 @@
 		A5CD3819224856CA001ADD61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A5CD3817224856CA001ADD61 /* LaunchScreen.storyboard */; };
 		A5CD3824224856CA001ADD61 /* TerranceHanlonTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CD3823224856CA001ADD61 /* TerranceHanlonTests.swift */; };
 		A5CD382F224856CA001ADD61 /* TerranceHanlonUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CD382E224856CA001ADD61 /* TerranceHanlonUITests.swift */; };
+		A5CD38412248739E001ADD61 /* AboutMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CD38402248739E001ADD61 /* AboutMe.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A5CD382A224856CA001ADD61 /* TerranceHanlonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TerranceHanlonUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5CD382E224856CA001ADD61 /* TerranceHanlonUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TerranceHanlonUITests.swift; sourceTree = "<group>"; };
 		A5CD3830224856CA001ADD61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CD38402248739E001ADD61 /* AboutMe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutMe.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			children = (
 				A5CD380E224856C7001ADD61 /* AppDelegate.swift */,
 				A5CD3810224856C7001ADD61 /* ViewController.swift */,
+				A5CD38402248739E001ADD61 /* AboutMe.swift */,
 				A5CD3812224856C7001ADD61 /* Main.storyboard */,
 				A5CD3815224856CA001ADD61 /* Assets.xcassets */,
 				A5CD3817224856CA001ADD61 /* LaunchScreen.storyboard */,
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A5CD3811224856C7001ADD61 /* ViewController.swift in Sources */,
+				A5CD38412248739E001ADD61 /* AboutMe.swift in Sources */,
 				A5CD380F224856C7001ADD61 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

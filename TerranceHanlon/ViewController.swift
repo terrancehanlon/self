@@ -16,7 +16,7 @@ class ViewController: UIViewController {
         + "I'm a computer science student at the University of Minnesota."
         + "I love being a developer, learning about software engineering and\n"
         + "computer science in general"
-        
+     
         static let dogsProject = " Dogs or DAAS (dogs as a service\n"
             + "Is a simple web app that uses a free API that pulls from a big"
             + "\nrepository of dog images"
@@ -43,7 +43,11 @@ class ViewController: UIViewController {
     //MARK: Actions
     
     @IBAction func showAboutMe(_ sender: Any) {
-        aboutMeText.text = constants.aboutMe
+        var i = 0;
+        while(i < 20){
+            aboutMeText.text += constants.aboutMe
+            i += 1
+        }
         aboutMeBtn.isHidden = true
         hideAboutMe.isHidden = false
     }
@@ -52,6 +56,9 @@ class ViewController: UIViewController {
         
     }
     @IBAction func hideAboutMe_func(_ sender: Any) {
+        aboutMeText.text = ""
+        hideAboutMe.isHidden = true
+        aboutMeBtn.isHidden = false;
     }
     
 }
